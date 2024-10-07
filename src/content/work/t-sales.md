@@ -6,7 +6,5 @@ img_alt:   Sales pitch react app for Wireless Communication Service Providers Sa
 description: |
   Sales pitch react app for Wireless Communication Service Providers Sales Representatives
 tags:
-  - Design
-  - Dev
-  - Branding
+  - React
 ---
