@@ -1,0 +1,16 @@
+
+{
+    "title": "Nikko Thorne | Creative Developer & Full Stack Specialist",
+    "description": "Welcome to Nikko Thorne's portfolio. A dynamic full stack developer, creator, and explorer based in Spokane, Washington. Specializing in Java, Python, SpringBoot, React, and strategic solutions for seamless user experiences.",
+    "keywords": "Nikko Thorne, Full Stack Developer, Creative Developer, Java, Python, SpringBoot, React, MySQL, Portfolio, Spokane Washington, Dynamic Development, Tech Trends, Strategic Solutions, Multi-threaded App, Sketch Pad App, T-Sales React App, Astro",
+    "author": "Nikko Thorne",
+    "og:title": "Nikko Thorne | Creative Developer & Full Stack Specialist",
+    "og:description": "Explore the work of Nikko Thorne, a skilled full stack developer and technology trailblazer. Discover featured projects, expertise, and strategic approaches to innovative solutions.",
+    "og:image": "path/to/nikko-thorne-portrait.jpg",
+    "og:url": "https://nikkos-portfolio.netlify.app/",
+    "og:site_name": "Nikko Thorne Portfolio",
+    "og:type": "website",
+    "profile:github": "https://github.com/Nikko-Thorne",
+    "profile:linkedin": "https://www.linkedin.com/in/nikko-thorne/",
+    "profile:techton": "https://techton.tech/"
+}
