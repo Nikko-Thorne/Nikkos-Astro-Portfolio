@@ -17,19 +17,11 @@ const { title, description } = Astro.props;
 
 <html lang="en">
 	<head>
-		<!-- Preload font to prioritize download -->
-		<link rel="preload" href="https://fonts.googleapis.com/css2?family=YourFontFamily:wght@400;700&display=swap" as="style">
-	  
-		<!-- Asynchronous loading of Google Fonts with media="print" and onload -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=YourFontFamily:wght@400;700&display=swap" media="print" onload="this.media='all'">
-	  
-		<!-- Ensure fonts are pre-cached and optimized -->
-		<noscript>
-		  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=YourFontFamily:wght@400;700&display=swap">
-		</noscript>
-		<!-- Other head tags -->
-	  </head>
-	  
+		<MainHead title={title} description={description} />
+		<link rel="preload" href="https://fonts.googleapis.com/css2?family=..." as="style">
+  		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=..." media="print" onload="this.media='all'">
+
+	</head>
 	<body>
 		<div class="stack backgrounds">
 			<Nav />
