@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 		props: { entry },
 	}));
 }
-
+//Extract Props
 const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
@@ -49,6 +49,12 @@ const { Content } = await entry.render();
 					<div class="content">
 						<Content />
 					</div>
+					{entry.data.github && (
+						<p>
+							View the project on <a href={entry.data.github} target="_blank" rel="noopener noreferrer">GitHub</a>.
+						</p>
+					)}
+				</div>
 				</div>
 			</main>
 		</div>
