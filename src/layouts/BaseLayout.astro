@@ -65,11 +65,6 @@ const { title, description } = Astro.props;
 				--bg-blend-mode: lighten;
 			}
 
-			@font-face {
-				font-family: Montserrat;
-				font-display: swap; /* or block */
-			}
-
 			/* These backgrounds are displayed below the fold, so we lazy load them
 			   once the `.loaded` class has been set.  */
 			:root.loaded {
@@ -129,7 +124,6 @@ const { title, description } = Astro.props;
 					--bg-gradient-size: none;
 				}
 			}
-			
 		</style>
 	</body>
 </html>
