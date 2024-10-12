@@ -1,0 +1,14 @@
+# Block all web crawlers from accessing the admin section of your site
+User-agent: *
+Disallow: /admin/
+
+# Allow all web crawlers access to the main site content
+User-agent: *
+Allow: /
+
+# Block specific crawlers (ExampleBot) from accessing the entire site
+User-agent: ExampleBot
+Disallow: /
+
+# Specify the location of the sitemap
+Sitemap: https://nikkos-portfolio.netlify.app/sitemap.xml
